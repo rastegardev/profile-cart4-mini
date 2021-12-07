@@ -1,0 +1,79 @@
+* {
+ padding: 0; margin: 0;
+}
+body {
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(to right, rgb(199, 210, 254), rgb(254, 202, 202), rgb(254, 243, 199));
+}
+/* --- Profile cart --- */
+.cart1, .cart2, .cart3 {
+ margin: 10px;
+ margin-top: 50px;
+ width: 350px;
+ height: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ background: #FFFFFF;
+ border-radius: 100px;
+ border: 2px solid #C7C7C7;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.img {
+ width: 70px;
+ height: 70px;
+ margin: 5px;
+ border: 2px solid #ffffff;
+ margin-left: -15px;
+ border-radius: 50%;
+}
+.img:hover {
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.namebox {
+ display: flex;
+ flex-flow: column;
+}
+.name {
+ margin-left: -30px;
+ color: #000000;
+ font-size: 20px;
+ font-weight: 300;
+ font-family: 'Fredoka One', cursive;
+}
+.desc {
+ margin-left: -30px;
+ color: #575757;
+ font-size: 11px;
+ font-weight: 300;
+ font-family: 'Fredoka One', cursive;
+}
+.icon {
+ font-size: 20px;
+}
+.fa-whatsapp {
+ color: #33FF02;
+}
+.fa-instagram {
+ color: #8a3ab9;
+}
+.fa-twitter {
+ color: #0093FF;
+}
+
+.cart2 {
+ border-radius: 20px;
+}
+.cart2 img {
+ border-radius: 20px;
+}
+
+.cart3 {
+ border-radius: 50px 30px;
+}
+.cart3 img {
+ border-radius: 50px 30px;
+}
